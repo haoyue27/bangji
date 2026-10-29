@@ -1,0 +1,1999 @@
+{
+  "title": "你画我猜 词库",
+  "version": "1.0",
+  "description": "适用于你画我猜类游戏的中文词库，按类别与难度分级。",
+  "difficulties": {
+    "easy": "简单：轮廓明显、好画好猜",
+    "medium": "中等：需要一定细节",
+    "hard": "困难：抽象或复杂"
+  },
+  "categories": {
+    "动物": {
+      "easy": [
+        "猫",
+        "狗",
+        "鱼",
+        "鸟",
+        "猪",
+        "牛",
+        "羊",
+        "马",
+        "鸡",
+        "鸭",
+        "兔",
+        "蛇",
+        "熊",
+        "虎",
+        "象",
+        "猴",
+        "鹿",
+        "蛙",
+        "鹅",
+        "蜂"
+      ],
+      "medium": [
+        "熊猫",
+        "老虎",
+        "狮子",
+        "长颈鹿",
+        "斑马",
+        "企鹅",
+        "海豚",
+        "鲸鱼",
+        "鲨鱼",
+        "鳄鱼",
+        "袋鼠",
+        "考拉",
+        "孔雀",
+        "鹦鹉",
+        "蝙蝠",
+        "松鼠",
+        "刺猬",
+        "乌龟",
+        "螃蟹",
+        "章鱼"
+      ],
+      "hard": [
+        "变色龙",
+        "树袋熊",
+        "海马",
+        "海星",
+        "水母",
+        "海豹",
+        "海狮",
+        "海獭",
+        "树懒",
+        "穿山甲"
+      ]
+    },
+    "食物": {
+      "easy": [
+        "苹果",
+        "香蕉",
+        "葡萄",
+        "西瓜",
+        "橙子",
+        "草莓",
+        "桃子",
+        "梨",
+        "面包",
+        "米饭",
+        "鸡蛋",
+        "牛奶",
+        "蛋糕",
+        "饺子",
+        "面条"
+      ],
+      "medium": [
+        "汉堡",
+        "披萨",
+        "寿司",
+        "炸鸡",
+        "牛排",
+        "拉面",
+        "炒饭",
+        "包子",
+        "粽子",
+        "月饼",
+        "冰淇淋",
+        "巧克力",
+        "咖啡",
+        "奶茶",
+        "火锅"
+      ],
+      "hard": [
+        "佛跳墙",
+        "满汉全席",
+        "分子料理",
+        "提拉米苏",
+        "马卡龙",
+        "舒芙蕾",
+        "千层蛋糕",
+        "芝士蛋糕"
+      ]
+    },
+    "物品": {
+      "easy": [
+        "书",
+        "笔",
+        "桌子",
+        "椅子",
+        "床",
+        "杯子",
+        "碗",
+        "手机",
+        "电视",
+        "钟",
+        "伞",
+        "钥匙",
+        "灯",
+        "门",
+        "窗"
+      ],
+      "medium": [
+        "电脑",
+        "相机",
+        "自行车",
+        "汽车",
+        "飞机",
+        "轮船",
+        "火车",
+        "吉他",
+        "钢琴",
+        "小提琴",
+        "望远镜",
+        "显微镜",
+        "雨伞",
+        "背包",
+        "手表"
+      ],
+      "hard": [
+        "缝纫机",
+        "织布机",
+        "3D打印机",
+        "无人机",
+        "VR头盔",
+        "轮椅",
+        "天文望远镜"
+      ]
+    },
+    "动作": {
+      "easy": [
+        "跑",
+        "跳",
+        "走",
+        "飞",
+        "游",
+        "爬",
+        "吃",
+        "喝",
+        "睡",
+        "笑",
+        "哭",
+        "唱",
+        "画",
+        "写",
+        "坐"
+      ],
+      "medium": [
+        "跳舞",
+        "唱歌",
+        "游泳",
+        "跑步",
+        "骑马",
+        "开车",
+        "飞行",
+        "跳跃",
+        "攀岩",
+        "滑雪",
+        "冲浪",
+        "潜水",
+        "瑜伽",
+        "拳击",
+        "体操"
+      ],
+      "hard": [
+        "杂技",
+        "芭蕾",
+        "探戈",
+        "华尔兹",
+        "太极",
+        "功夫",
+        "攀冰",
+        "蹦极",
+        "跳伞"
+      ]
+    },
+    "地点": {
+      "easy": [
+        "家",
+        "学校",
+        "医院",
+        "超市",
+        "公园",
+        "图书馆",
+        "电影院",
+        "餐厅",
+        "车站",
+        "机场"
+      ],
+      "medium": [
+        "游乐园",
+        "动物园",
+        "博物馆",
+        "水族馆",
+        "体育馆",
+        "酒店",
+        "银行",
+        "邮局",
+        "教堂",
+        "寺庙"
+      ],
+      "hard": [
+        "长城",
+        "金字塔",
+        "埃菲尔铁塔",
+        "自由女神像",
+        "泰姬陵",
+        "故宫",
+        "布达拉宫",
+        "兵马俑"
+      ]
+    },
+    "职业": {
+      "easy": [
+        "医生",
+        "老师",
+        "警察",
+        "司机",
+        "厨师",
+        "农民",
+        "学生",
+        "护士",
+        "士兵",
+        "邮递员"
+      ],
+      "medium": [
+        "飞行员",
+        "宇航员",
+        "消防员",
+        "建筑师",
+        "画家",
+        "音乐家",
+        "演员",
+        "运动员",
+        "记者",
+        "律师"
+      ],
+      "hard": [
+        "考古学家",
+        "深海潜水员",
+        "极地探险家",
+        "病毒学家",
+        "法医",
+        "爆破专家"
+      ]
+    },
+    "植物": {
+      "easy": [
+        "花",
+        "草",
+        "树",
+        "叶",
+        "果",
+        "玫瑰",
+        "向日葵",
+        "荷花",
+        "竹子",
+        "松树"
+      ],
+      "medium": [
+        "仙人掌",
+        "兰花",
+        "郁金香",
+        "牡丹",
+        "樱花",
+        "枫树",
+        "柳树",
+        "松柏",
+        "椰子树",
+        "葡萄藤"
+      ],
+      "hard": [
+        "食人花",
+        "巨魔芋",
+        "猴面包树",
+        "瓶子树",
+        "龙血树",
+        "猪笼草",
+        "捕蝇草"
+      ]
+    },
+    "人物": {
+      "easy": [
+        "爸爸",
+        "妈妈",
+        "孩子",
+        "爷爷",
+        "奶奶",
+        "朋友"
+      ],
+      "medium": [
+        "超人",
+        "蝙蝠侠",
+        "蜘蛛侠",
+        "钢铁侠",
+        "白雪公主",
+        "灰姑娘",
+        "小红帽",
+        "唐僧",
+        "孙悟空",
+        "猪八戒"
+      ],
+      "hard": [
+        "福尔摩斯",
+        "哈利波特",
+        "甘道夫",
+        "达斯维达"
+      ]
+    },
+    "自然": {
+      "easy": [
+        "山",
+        "水",
+        "火",
+        "风",
+        "雨",
+        "雪",
+        "云",
+        "太阳",
+        "月亮",
+        "星星"
+      ],
+      "medium": [
+        "彩虹",
+        "闪电",
+        "雷",
+        "雾",
+        "霜",
+        "露",
+        "冰",
+        "雪人",
+        "火山",
+        "地震"
+      ],
+      "hard": [
+        "极光",
+        "海市蜃楼",
+        "日食",
+        "月食",
+        "流星雨",
+        "台风",
+        "海啸",
+        "龙卷风"
+      ]
+    },
+    "交通": {
+      "easy": [
+        "车",
+        "船",
+        "摩托车",
+        "公交车",
+        "出租车",
+        "地铁"
+      ],
+      "medium": [
+        "直升机",
+        "热气球",
+        "滑板",
+        "轮滑",
+        "电动车",
+        "卡车",
+        "救护车",
+        "消防车",
+        "警车",
+        "装甲车"
+      ],
+      "hard": [
+        "宇宙飞船",
+        "航天飞机",
+        "潜水艇",
+        "坦克",
+        "装甲运兵车",
+        "气垫船",
+        "气球"
+      ]
+    }
+  },
+  "all_words": [
+    {
+      "word": "猫",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "狗",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鱼",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鸟",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "猪",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "牛",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "羊",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "马",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鸡",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鸭",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "兔",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "蛇",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "熊",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "虎",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "象",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "猴",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鹿",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "蛙",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鹅",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "蜂",
+      "category": "动物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "熊猫",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "老虎",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "狮子",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "长颈鹿",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "斑马",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "企鹅",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "海豚",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "鲸鱼",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "鲨鱼",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "鳄鱼",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "袋鼠",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "考拉",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "孔雀",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "鹦鹉",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "蝙蝠",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "松鼠",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "刺猬",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "乌龟",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "螃蟹",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "章鱼",
+      "category": "动物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "变色龙",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "树袋熊",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海马",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海星",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "水母",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海豹",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海狮",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海獭",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "树懒",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "穿山甲",
+      "category": "动物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "苹果",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "香蕉",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "葡萄",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "西瓜",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "橙子",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "草莓",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "桃子",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "梨",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "面包",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "米饭",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "鸡蛋",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "牛奶",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "蛋糕",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "饺子",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "面条",
+      "category": "食物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "汉堡",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "披萨",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "寿司",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "炸鸡",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "牛排",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "拉面",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "炒饭",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "包子",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "粽子",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "月饼",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "冰淇淋",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "巧克力",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "咖啡",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "奶茶",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "火锅",
+      "category": "食物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "佛跳墙",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "满汉全席",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "分子料理",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "提拉米苏",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "马卡龙",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "舒芙蕾",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "千层蛋糕",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "芝士蛋糕",
+      "category": "食物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "书",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "笔",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "桌子",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "椅子",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "床",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "杯子",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "碗",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "手机",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "电视",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "钟",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "伞",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "钥匙",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "灯",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "门",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "窗",
+      "category": "物品",
+      "difficulty": "easy"
+    },
+    {
+      "word": "电脑",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "相机",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "自行车",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "汽车",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "飞机",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "轮船",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "火车",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "吉他",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "钢琴",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "小提琴",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "望远镜",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "显微镜",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "雨伞",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "背包",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "手表",
+      "category": "物品",
+      "difficulty": "medium"
+    },
+    {
+      "word": "缝纫机",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "织布机",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "3D打印机",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "无人机",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "VR头盔",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "轮椅",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "天文望远镜",
+      "category": "物品",
+      "difficulty": "hard"
+    },
+    {
+      "word": "跑",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "跳",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "走",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "飞",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "游",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "爬",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "吃",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "喝",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "睡",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "笑",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "哭",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "唱",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "画",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "写",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "坐",
+      "category": "动作",
+      "difficulty": "easy"
+    },
+    {
+      "word": "跳舞",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "唱歌",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "游泳",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "跑步",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "骑马",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "开车",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "飞行",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "跳跃",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "攀岩",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "滑雪",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "冲浪",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "潜水",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "瑜伽",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "拳击",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "体操",
+      "category": "动作",
+      "difficulty": "medium"
+    },
+    {
+      "word": "杂技",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "芭蕾",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "探戈",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "华尔兹",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "太极",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "功夫",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "攀冰",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "蹦极",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "跳伞",
+      "category": "动作",
+      "difficulty": "hard"
+    },
+    {
+      "word": "家",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "学校",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "医院",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "超市",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "公园",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "图书馆",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "电影院",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "餐厅",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "车站",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "机场",
+      "category": "地点",
+      "difficulty": "easy"
+    },
+    {
+      "word": "游乐园",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "动物园",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "博物馆",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "水族馆",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "体育馆",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "酒店",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "银行",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "邮局",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "教堂",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "寺庙",
+      "category": "地点",
+      "difficulty": "medium"
+    },
+    {
+      "word": "长城",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "金字塔",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "埃菲尔铁塔",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "自由女神像",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "泰姬陵",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "故宫",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "布达拉宫",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "兵马俑",
+      "category": "地点",
+      "difficulty": "hard"
+    },
+    {
+      "word": "医生",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "老师",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "警察",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "司机",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "厨师",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "农民",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "学生",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "护士",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "士兵",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "邮递员",
+      "category": "职业",
+      "difficulty": "easy"
+    },
+    {
+      "word": "飞行员",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "宇航员",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "消防员",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "建筑师",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "画家",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "音乐家",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "演员",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "运动员",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "记者",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "律师",
+      "category": "职业",
+      "difficulty": "medium"
+    },
+    {
+      "word": "考古学家",
+      "category": "职业",
+      "difficulty": "hard"
+    },
+    {
+      "word": "深海潜水员",
+      "category": "职业",
+      "difficulty": "hard"
+    },
+    {
+      "word": "极地探险家",
+      "category": "职业",
+      "difficulty": "hard"
+    },
+    {
+      "word": "病毒学家",
+      "category": "职业",
+      "difficulty": "hard"
+    },
+    {
+      "word": "法医",
+      "category": "职业",
+      "difficulty": "hard"
+    },
+    {
+      "word": "爆破专家",
+      "category": "职业",
+      "difficulty": "hard"
+    },
+    {
+      "word": "花",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "草",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "树",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "叶",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "果",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "玫瑰",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "向日葵",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "荷花",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "竹子",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "松树",
+      "category": "植物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "仙人掌",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "兰花",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "郁金香",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "牡丹",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "樱花",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "枫树",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "柳树",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "松柏",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "椰子树",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "葡萄藤",
+      "category": "植物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "食人花",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "巨魔芋",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "猴面包树",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "瓶子树",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "龙血树",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "猪笼草",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "捕蝇草",
+      "category": "植物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "爸爸",
+      "category": "人物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "妈妈",
+      "category": "人物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "孩子",
+      "category": "人物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "爷爷",
+      "category": "人物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "奶奶",
+      "category": "人物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "朋友",
+      "category": "人物",
+      "difficulty": "easy"
+    },
+    {
+      "word": "超人",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "蝙蝠侠",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "蜘蛛侠",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "钢铁侠",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "白雪公主",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "灰姑娘",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "小红帽",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "唐僧",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "孙悟空",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "猪八戒",
+      "category": "人物",
+      "difficulty": "medium"
+    },
+    {
+      "word": "福尔摩斯",
+      "category": "人物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "哈利波特",
+      "category": "人物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "甘道夫",
+      "category": "人物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "达斯维达",
+      "category": "人物",
+      "difficulty": "hard"
+    },
+    {
+      "word": "山",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "水",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "火",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "风",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "雨",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "雪",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "云",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "太阳",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "月亮",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "星星",
+      "category": "自然",
+      "difficulty": "easy"
+    },
+    {
+      "word": "彩虹",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "闪电",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "雷",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "雾",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "霜",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "露",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "冰",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "雪人",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "火山",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "地震",
+      "category": "自然",
+      "difficulty": "medium"
+    },
+    {
+      "word": "极光",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海市蜃楼",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "日食",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "月食",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "流星雨",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "台风",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "海啸",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "龙卷风",
+      "category": "自然",
+      "difficulty": "hard"
+    },
+    {
+      "word": "车",
+      "category": "交通",
+      "difficulty": "easy"
+    },
+    {
+      "word": "船",
+      "category": "交通",
+      "difficulty": "easy"
+    },
+    {
+      "word": "摩托车",
+      "category": "交通",
+      "difficulty": "easy"
+    },
+    {
+      "word": "公交车",
+      "category": "交通",
+      "difficulty": "easy"
+    },
+    {
+      "word": "出租车",
+      "category": "交通",
+      "difficulty": "easy"
+    },
+    {
+      "word": "地铁",
+      "category": "交通",
+      "difficulty": "easy"
+    },
+    {
+      "word": "直升机",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "热气球",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "滑板",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "轮滑",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "电动车",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "卡车",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "救护车",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "消防车",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "警车",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "装甲车",
+      "category": "交通",
+      "difficulty": "medium"
+    },
+    {
+      "word": "宇宙飞船",
+      "category": "交通",
+      "difficulty": "hard"
+    },
+    {
+      "word": "航天飞机",
+      "category": "交通",
+      "difficulty": "hard"
+    },
+    {
+      "word": "潜水艇",
+      "category": "交通",
+      "difficulty": "hard"
+    },
+    {
+      "word": "坦克",
+      "category": "交通",
+      "difficulty": "hard"
+    },
+    {
+      "word": "装甲运兵车",
+      "category": "交通",
+      "difficulty": "hard"
+    },
+    {
+      "word": "气垫船",
+      "category": "交通",
+      "difficulty": "hard"
+    },
+    {
+      "word": "气球",
+      "category": "交通",
+      "difficulty": "hard"
+    }
+  ],
+  "stats": {
+    "total": 316,
+    "categories": 10,
+    "by_difficulty": {
+      "easy": 117,
+      "medium": 125,
+      "hard": 74
+    }
+  }
+}
